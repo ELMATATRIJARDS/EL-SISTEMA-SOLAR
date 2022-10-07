@@ -1,0 +1,122 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+
+body{
+    height: 600px;
+    background-color: cyan;
+    background-image: url("https://concepto.de/wp-content/uploads/2019/07/galaxia-e1561948092846.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+ul{
+    list-style-type: none;/*quitar viñetas*/
+    margin: 0;/*espacio externo*/
+    padding: 0;/*espacio interno*/
+    overflow: hidden;/*texto flotante este en el cuadr*/
+    background-color: rgb(220, 20, 20);
+}
+
+li{
+    float: left;/*texto flotante*/
+}
+
+li a{
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+/*seudocodigo que cambia al pasar el mouse*/
+
+li a:hover{
+    background-color: gold;
+    color: coral;
+}
+
+header{
+    background-color: none;
+    text-align: center;
+    color: aquamarine;
+    text-decoration: underline;
+    background-position: center center;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/001/987/723/original/abstract-banner-technology-stripes-geometric-diagonal-pink-blue-background-free-vector.jpg");
+    background-size: cover;
+}
+
+h4{
+    color: rgb(5, 63, 253);
+    text-decoration: underline;
+    text-transform: initial;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    /*sombra horizontal - vertical - desenfoque - color*/
+    text-shadow: 1px 1px 1px red;
+}
+
+#mercurio{
+    color:aqua;
+}
+
+#venus{
+    color:rgb(19, 235, 145);
+    font-size: 24px;
+}
+
+#tierra{
+    color:rgb(255, 72, 0);
+}
+
+#marte{
+    color:rgb(62, 238, 18);
+}
+
+#jupiter{
+    color:rgb(255, 0, 191);
+}
+
+#saturno{
+    color:rgb(210, 0, 238);
+}
+
+#urano{
+    color:rgb(66, 238, 13);
+}
+
+#neptuno{
+    color:rgb(0, 171, 250);
+}
+
+#estrellapistola{
+    color:rgb(250, 0, 146);
+}
+
+
+footer{
+    background-color: none;
+    text-align: center;
+    color: aquamarine;
+    text-decoration: underline;
+    background-position: center center;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-violet-blue-neon-strip-dynamic-banner-background-curvebeamlightneon-lightviolet-blue-image_83239.jpg");
+    background-size: cover;
+}
+
+
+footer svg{
+    width: 2%;
+}
